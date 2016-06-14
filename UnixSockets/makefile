@@ -1,4 +1,4 @@
-all: socket
+all: server client
 server: server.c
 	gcc -g server.c -o server
 client: client.c
